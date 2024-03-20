@@ -6,6 +6,8 @@ on:
     
 jobs:
     npm-package:
+      permissions:
+        packages: write
       runs-on: ubuntu-latest
       steps:
         - name: Checkout Repository
